@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 249, 250, 251;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 17, 24, 39;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.dark .bg-white {
+  background-color: rgb(31, 41, 55);
+}
+
+.dark .text-gray-900 {
+  color: rgb(243, 244, 246);
+}
+
+.dark .text-gray-700 {
+  color: rgb(209, 213, 219);
+}
+
+.dark .text-gray-600 {
+  color: rgb(156, 163, 175);
+}
+
+.dark .text-gray-500 {
+  color: rgb(107, 114, 128);
+}
+
+.dark .border-gray-200 {
+  border-color: rgb(55, 65, 81);
+}
+
+.dark .hover\:bg-gray-50:hover {
+  background-color: rgb(55, 65, 81);
+}
